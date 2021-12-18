@@ -1,0 +1,14 @@
+listeners:
+  # Specifies the fishing listener.
+  fishing:
+    # Arbitrary name of the drop.
+#    lightning-orb:
+      # The requirement for the drop to execute.
+      # Gemstones follow the mmoitem format, but are detected only if they are attached to the item.
+#      parent: mmoitem{type=gem_stone;id=lightning-orb}
+#      drops:
+#        - mmdroptable{id=lightning-orb-drops}
+#    steel-rod:
+#      parent: mmoitem{type=rod;id=steel_fishing_rod}
+#      drops:
+#        - mmdroptable{id=test-table}

@@ -1,0 +1,13 @@
+name: DropListeners
+version: '${project.version}'
+main: com.ehhthan.droplisteners.DropListeners
+api-version: 1.17
+depend: [ MythicMobs, MMOItems, MythicLib ]
+authors: [ Ehhthan ]
+description: Connect mythic mobs drop tables to events. Originally commissioned for SebTheRed.
+commands:
+  droplisteners:
+    aliases: [dropl, dlisteners, dlistener, dl]
+    description: Reload the plugin
+    usage: /<command> reload
+    permission: droplisteners.reload
